@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60C4FDAC1D24D75800F2BC71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C4FDAB1D24D75800F2BC71 /* main.m */; };
+		60C4FDAF1D24D75800F2BC71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C4FDAE1D24D75800F2BC71 /* AppDelegate.m */; };
+		60C4FDB21D24D75800F2BC71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C4FDB11D24D75800F2BC71 /* ViewController.m */; };
+		60C4FDB51D24D75800F2BC71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C4FDB31D24D75800F2BC71 /* Main.storyboard */; };
+		60C4FDB71D24D75800F2BC71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60C4FDB61D24D75800F2BC71 /* Assets.xcassets */; };
+		60C4FDBA1D24D75800F2BC71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60C4FDB81D24D75800F2BC71 /* LaunchScreen.storyboard */; };
+		60C4FDC51D24D75800F2BC71 /* My360VideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C4FDC41D24D75800F2BC71 /* My360VideoPlayerTests.m */; };
+		60C4FDD01D24D75800F2BC71 /* My360VideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C4FDCF1D24D75800F2BC71 /* My360VideoPlayerUITests.m */; };
+		60C4FDE61D24D8FE00F2BC71 /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C4FDDE1D24D8FD00F2BC71 /* GLProgram.m */; };
+		60C4FDE71D24D8FE00F2BC71 /* HTY360PlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C4FDE01D24D8FE00F2BC71 /* HTY360PlayerVC.m */; };
+		60C4FDE81D24D8FE00F2BC71 /* HTY360PlayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C4FDE11D24D8FE00F2BC71 /* HTY360PlayerVC.xib */; };
+		60C4FDE91D24D8FE00F2BC71 /* HTYGLKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C4FDE31D24D8FE00F2BC71 /* HTYGLKVC.m */; };
+		60C4FDEA1D24D8FE00F2BC71 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 60C4FDE41D24D8FE00F2BC71 /* Shader.fsh */; };
+		60C4FDEB1D24D8FE00F2BC71 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 60C4FDE51D24D8FE00F2BC71 /* Shader.vsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60C4FDC11D24D75800F2BC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C4FD9F1D24D75800F2BC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C4FDA61D24D75800F2BC71;
+			remoteInfo = My360VideoPlayer;
+		};
+		60C4FDCC1D24D75800F2BC71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C4FD9F1D24D75800F2BC71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C4FDA61D24D75800F2BC71;
+			remoteInfo = My360VideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60C4FDA71D24D75800F2BC71 /* My360VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My360VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C4FDAB1D24D75800F2BC71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60C4FDAD1D24D75800F2BC71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60C4FDAE1D24D75800F2BC71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60C4FDB01D24D75800F2BC71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60C4FDB11D24D75800F2BC71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60C4FDB41D24D75800F2BC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60C4FDB61D24D75800F2BC71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60C4FDB91D24D75800F2BC71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60C4FDBB1D24D75800F2BC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C4FDC01D24D75800F2BC71 /* My360VideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = My360VideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C4FDC41D24D75800F2BC71 /* My360VideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My360VideoPlayerTests.m; sourceTree = "<group>"; };
+		60C4FDC61D24D75800F2BC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C4FDCB1D24D75800F2BC71 /* My360VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = My360VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C4FDCF1D24D75800F2BC71 /* My360VideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My360VideoPlayerUITests.m; sourceTree = "<group>"; };
+		60C4FDD11D24D75800F2BC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C4FDDD1D24D8FD00F2BC71 /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		60C4FDDE1D24D8FD00F2BC71 /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		60C4FDDF1D24D8FE00F2BC71 /* HTY360PlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTY360PlayerVC.h; sourceTree = "<group>"; };
+		60C4FDE01D24D8FE00F2BC71 /* HTY360PlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTY360PlayerVC.m; sourceTree = "<group>"; };
+		60C4FDE11D24D8FE00F2BC71 /* HTY360PlayerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTY360PlayerVC.xib; sourceTree = "<group>"; };
+		60C4FDE21D24D8FE00F2BC71 /* HTYGLKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTYGLKVC.h; sourceTree = "<group>"; };
+		60C4FDE31D24D8FE00F2BC71 /* HTYGLKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTYGLKVC.m; sourceTree = "<group>"; };
+		60C4FDE41D24D8FE00F2BC71 /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		60C4FDE51D24D8FE00F2BC71 /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C4FDA41D24D75800F2BC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4FDBD1D24D75800F2BC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4FDC81D24D75800F2BC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60C4FD9E1D24D75800F2BC71 = {
+			isa = PBXGroup;
+			children = (
+				60C4FDA91D24D75800F2BC71 /* My360VideoPlayer */,
+				60C4FDC31D24D75800F2BC71 /* My360VideoPlayerTests */,
+				60C4FDCE1D24D75800F2BC71 /* My360VideoPlayerUITests */,
+				60C4FDA81D24D75800F2BC71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60C4FDA81D24D75800F2BC71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C4FDA71D24D75800F2BC71 /* My360VideoPlayer.app */,
+				60C4FDC01D24D75800F2BC71 /* My360VideoPlayerTests.xctest */,
+				60C4FDCB1D24D75800F2BC71 /* My360VideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C4FDA91D24D75800F2BC71 /* My360VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				60C4FDEC1D24D90700F2BC71 /* 360VideoPlayer */,
+				60C4FDAD1D24D75800F2BC71 /* AppDelegate.h */,
+				60C4FDAE1D24D75800F2BC71 /* AppDelegate.m */,
+				60C4FDB01D24D75800F2BC71 /* ViewController.h */,
+				60C4FDB11D24D75800F2BC71 /* ViewController.m */,
+				60C4FDB31D24D75800F2BC71 /* Main.storyboard */,
+				60C4FDB61D24D75800F2BC71 /* Assets.xcassets */,
+				60C4FDB81D24D75800F2BC71 /* LaunchScreen.storyboard */,
+				60C4FDBB1D24D75800F2BC71 /* Info.plist */,
+				60C4FDAA1D24D75800F2BC71 /* Supporting Files */,
+			);
+			path = My360VideoPlayer;
+			sourceTree = "<group>";
+		};
+		60C4FDAA1D24D75800F2BC71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60C4FDAB1D24D75800F2BC71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60C4FDC31D24D75800F2BC71 /* My360VideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				60C4FDC41D24D75800F2BC71 /* My360VideoPlayerTests.m */,
+				60C4FDC61D24D75800F2BC71 /* Info.plist */,
+			);
+			path = My360VideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		60C4FDCE1D24D75800F2BC71 /* My360VideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60C4FDCF1D24D75800F2BC71 /* My360VideoPlayerUITests.m */,
+				60C4FDD11D24D75800F2BC71 /* Info.plist */,
+			);
+			path = My360VideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		60C4FDEC1D24D90700F2BC71 /* 360VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				60C4FDE41D24D8FE00F2BC71 /* Shader.fsh */,
+				60C4FDE51D24D8FE00F2BC71 /* Shader.vsh */,
+				60C4FDDD1D24D8FD00F2BC71 /* GLProgram.h */,
+				60C4FDDE1D24D8FD00F2BC71 /* GLProgram.m */,
+				60C4FDE21D24D8FE00F2BC71 /* HTYGLKVC.h */,
+				60C4FDE31D24D8FE00F2BC71 /* HTYGLKVC.m */,
+				60C4FDDF1D24D8FE00F2BC71 /* HTY360PlayerVC.h */,
+				60C4FDE01D24D8FE00F2BC71 /* HTY360PlayerVC.m */,
+				60C4FDE11D24D8FE00F2BC71 /* HTY360PlayerVC.xib */,
+			);
+			name = 360VideoPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60C4FDA61D24D75800F2BC71 /* My360VideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C4FDD41D24D75800F2BC71 /* Build configuration list for PBXNativeTarget "My360VideoPlayer" */;
+			buildPhases = (
+				60C4FDA31D24D75800F2BC71 /* Sources */,
+				60C4FDA41D24D75800F2BC71 /* Frameworks */,
+				60C4FDA51D24D75800F2BC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = My360VideoPlayer;
+			productName = My360VideoPlayer;
+			productReference = 60C4FDA71D24D75800F2BC71 /* My360VideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60C4FDBF1D24D75800F2BC71 /* My360VideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C4FDD71D24D75800F2BC71 /* Build configuration list for PBXNativeTarget "My360VideoPlayerTests" */;
+			buildPhases = (
+				60C4FDBC1D24D75800F2BC71 /* Sources */,
+				60C4FDBD1D24D75800F2BC71 /* Frameworks */,
+				60C4FDBE1D24D75800F2BC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C4FDC21D24D75800F2BC71 /* PBXTargetDependency */,
+			);
+			name = My360VideoPlayerTests;
+			productName = My360VideoPlayerTests;
+			productReference = 60C4FDC01D24D75800F2BC71 /* My360VideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60C4FDCA1D24D75800F2BC71 /* My360VideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C4FDDA1D24D75800F2BC71 /* Build configuration list for PBXNativeTarget "My360VideoPlayerUITests" */;
+			buildPhases = (
+				60C4FDC71D24D75800F2BC71 /* Sources */,
+				60C4FDC81D24D75800F2BC71 /* Frameworks */,
+				60C4FDC91D24D75800F2BC71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C4FDCD1D24D75800F2BC71 /* PBXTargetDependency */,
+			);
+			name = My360VideoPlayerUITests;
+			productName = My360VideoPlayerUITests;
+			productReference = 60C4FDCB1D24D75800F2BC71 /* My360VideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60C4FD9F1D24D75800F2BC71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = RKM;
+				TargetAttributes = {
+					60C4FDA61D24D75800F2BC71 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 73D3Z5922Y;
+					};
+					60C4FDBF1D24D75800F2BC71 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 60C4FDA61D24D75800F2BC71;
+					};
+					60C4FDCA1D24D75800F2BC71 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 60C4FDA61D24D75800F2BC71;
+					};
+				};
+			};
+			buildConfigurationList = 60C4FDA21D24D75800F2BC71 /* Build configuration list for PBXProject "My360VideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60C4FD9E1D24D75800F2BC71;
+			productRefGroup = 60C4FDA81D24D75800F2BC71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60C4FDA61D24D75800F2BC71 /* My360VideoPlayer */,
+				60C4FDBF1D24D75800F2BC71 /* My360VideoPlayerTests */,
+				60C4FDCA1D24D75800F2BC71 /* My360VideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60C4FDA51D24D75800F2BC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C4FDBA1D24D75800F2BC71 /* LaunchScreen.storyboard in Resources */,
+				60C4FDB71D24D75800F2BC71 /* Assets.xcassets in Resources */,
+				60C4FDEB1D24D8FE00F2BC71 /* Shader.vsh in Resources */,
+				60C4FDB51D24D75800F2BC71 /* Main.storyboard in Resources */,
+				60C4FDE81D24D8FE00F2BC71 /* HTY360PlayerVC.xib in Resources */,
+				60C4FDEA1D24D8FE00F2BC71 /* Shader.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4FDBE1D24D75800F2BC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4FDC91D24D75800F2BC71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60C4FDA31D24D75800F2BC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C4FDB21D24D75800F2BC71 /* ViewController.m in Sources */,
+				60C4FDE61D24D8FE00F2BC71 /* GLProgram.m in Sources */,
+				60C4FDAF1D24D75800F2BC71 /* AppDelegate.m in Sources */,
+				60C4FDAC1D24D75800F2BC71 /* main.m in Sources */,
+				60C4FDE71D24D8FE00F2BC71 /* HTY360PlayerVC.m in Sources */,
+				60C4FDE91D24D8FE00F2BC71 /* HTYGLKVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4FDBC1D24D75800F2BC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C4FDC51D24D75800F2BC71 /* My360VideoPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C4FDC71D24D75800F2BC71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C4FDD01D24D75800F2BC71 /* My360VideoPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60C4FDC21D24D75800F2BC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C4FDA61D24D75800F2BC71 /* My360VideoPlayer */;
+			targetProxy = 60C4FDC11D24D75800F2BC71 /* PBXContainerItemProxy */;
+		};
+		60C4FDCD1D24D75800F2BC71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C4FDA61D24D75800F2BC71 /* My360VideoPlayer */;
+			targetProxy = 60C4FDCC1D24D75800F2BC71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60C4FDB31D24D75800F2BC71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C4FDB41D24D75800F2BC71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60C4FDB81D24D75800F2BC71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60C4FDB91D24D75800F2BC71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60C4FDD21D24D75800F2BC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60C4FDD31D24D75800F2BC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60C4FDD51D24D75800F2BC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = My360VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tocet.My360VideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		60C4FDD61D24D75800F2BC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = My360VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tocet.My360VideoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		60C4FDD81D24D75800F2BC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = My360VideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tocet.My360VideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My360VideoPlayer.app/My360VideoPlayer";
+			};
+			name = Debug;
+		};
+		60C4FDD91D24D75800F2BC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = My360VideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tocet.My360VideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My360VideoPlayer.app/My360VideoPlayer";
+			};
+			name = Release;
+		};
+		60C4FDDB1D24D75800F2BC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = My360VideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tocet.My360VideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = My360VideoPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		60C4FDDC1D24D75800F2BC71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = My360VideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tocet.My360VideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = My360VideoPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C4FDA21D24D75800F2BC71 /* Build configuration list for PBXProject "My360VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C4FDD21D24D75800F2BC71 /* Debug */,
+				60C4FDD31D24D75800F2BC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C4FDD41D24D75800F2BC71 /* Build configuration list for PBXNativeTarget "My360VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C4FDD51D24D75800F2BC71 /* Debug */,
+				60C4FDD61D24D75800F2BC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C4FDD71D24D75800F2BC71 /* Build configuration list for PBXNativeTarget "My360VideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C4FDD81D24D75800F2BC71 /* Debug */,
+				60C4FDD91D24D75800F2BC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C4FDDA1D24D75800F2BC71 /* Build configuration list for PBXNativeTarget "My360VideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C4FDDB1D24D75800F2BC71 /* Debug */,
+				60C4FDDC1D24D75800F2BC71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60C4FD9F1D24D75800F2BC71 /* Project object */;
+}
